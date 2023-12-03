@@ -1,0 +1,106 @@
+{
+  "width": 8,
+  "height": 8,
+  "antennaX": 5,
+  "antennaY": 2,
+  "spaces": [
+    {
+      "playerNo": 0,
+      "x": 1,
+      "y": 5,
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.Checkpoint",
+          "INSTANCE": {
+            "no": 2
+          }
+        }
+      ]
+    },
+    {
+      "playerNo": 0,
+      "x": 2,
+      "y": 3,
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.Checkpoint",
+          "INSTANCE": {
+            "no": 1
+          }
+        }
+      ]
+    },
+    {
+      "playerNo": 2,
+      "x": 3,
+      "y": 1,
+      "walls": [
+        "EAST"
+      ],
+      "actions": []
+    },
+    {
+      "playerNo": 0,
+      "x": 3,
+      "y": 5,
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "EAST"
+          }
+        }
+      ]
+    },
+    {
+      "playerNo": 0,
+      "x": 4,
+      "y": 4,
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.Gear",
+          "INSTANCE": {
+            "direction": "LEFT"
+          }
+        }
+      ]
+    },
+    {
+      "playerNo": 0,
+      "x": 4,
+      "y": 5,
+      "walls": [],
+      "actions": [
+        {
+          "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.ConveyorBelt",
+          "INSTANCE": {
+            "heading": "NORTH"
+          }
+        }
+      ]
+    },
+    {
+      "playerNo": 0,
+      "x": 6,
+      "y": 6,
+      "walls" : [],
+      "actions" : [{
+        "CLASSNAME": "pisd.dk.dtu.compute.se.roborally.model.Pit",
+        "INSTANCE": {}
+      }]
+    },
+    {
+      "playerNo": 1,
+      "x": 5,
+      "y": 4,
+      "walls": [
+        "WEST"
+      ],
+      "actions": []
+    }
+  ]
+}
